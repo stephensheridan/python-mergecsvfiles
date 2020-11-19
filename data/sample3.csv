@@ -1,0 +1,15 @@
+add, 44
+and, 10
+call, 9
+cmp, 17
+eax, 133
+ecx, 20
+jmp, 7
+lea, 8
+mov, 32
+mul, 8
+or, 167
+push, 12
+pop, 34
+test, 9
+xor, 22
