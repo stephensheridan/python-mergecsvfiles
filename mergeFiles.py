@@ -1,4 +1,4 @@
-# Import the os module, for the os.walk function
+# Import the os module
 import os
 import csv
 
@@ -20,7 +20,7 @@ def mergeFile(filePath):
     masterFile = open('./master.csv', 'a')
     # Create a csv writer
     write = csv.writer(masterFile)
-    # Output the column headinds - optional!
+    # Output the column headings - optional!
     write.writerow(columns)
     # Traverse the sample files as process
     for dirName, subdirList, fileList in os.walk(filePath):
